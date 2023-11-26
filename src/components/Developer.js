@@ -14,6 +14,9 @@ function Developer() {
           <Card.Img className="developer-img" variant="top" src={dev.img} />
           <Card.Body>
             <Card.Title>{dev.name}</Card.Title>
+            <Card.Title>{dev.Alias}</Card.Title>
+
+
             <Card.Text>
               Task: {dev.task}
             </Card.Text>
